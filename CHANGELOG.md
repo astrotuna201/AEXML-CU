@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 4.2.0 - Project fork
+
+- Outputs a value of an element, even if it has children.
+- Parses strings that come after closed elements and puts them in a tail string property
+- Does not strip whitespace upon parsing
+- Adds an xmlString() function for output
+- Adds a "trimmed" string extension
+- Adds tests for .xml and .xmlCompact parity with xmlString()
+
 ## Version 4.1.0
 
 - Convenience typed accessors are now optional instead of having default values

@@ -1,12 +1,11 @@
-# AEXML
-**Simple and lightweight XML parser written in Swift**
+# AEXML-CU
+**Simple and lightweight XML parser written in Swift. A fork of AEXML.**
 
 [![Language Swift 3.0](https://img.shields.io/badge/Language-Swift%203.0-orange.svg?style=flat)](https://swift.org)
 [![Platforms iOS | watchOS | tvOS | OSX](https://img.shields.io/badge/Platforms-iOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20OS%20X-lightgray.svg?style=flat)](http://www.apple.com)
 [![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](https://github.com/tadija/AEXML/blob/master/LICENSE)
 
-[![CocoaPods Version](https://img.shields.io/cocoapods/v/AEXML.svg?style=flat)](https://cocoapods.org/pods/AEXML)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/AEXML-CU.svg?style=flat)](https://cocoapods.org/pods/AEXML-CU)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 > This is not a robust full featured XML parser, but rather simple,  
@@ -23,7 +22,7 @@ lightweight and easy to use utility for casual XML handling.
 ## Features
 - **Read XML** data
 - **Write XML** string
-- Covered with [unit tests](https://github.com/tadija/AEXML/blob/master/Tests/AEXMLTests.swift)
+- Covered with [unit tests](https://github.com/OpenClemson/AEXML-CU/blob/master/Tests/AEXMLTests.swift)
 - Covered with inline docs
 
 ## Usage
@@ -170,19 +169,13 @@ print(soapRequest.xml)
 - [Swift Package Manager](https://swift.org/package-manager/):
 
 	```
-	.Package(url: "https://github.com/tadija/AEXML.git", majorVersion: 4)
-	```
-
-- [Carthage](https://github.com/Carthage/Carthage):
-
-	```ogdl
-	github "tadija/AEXML"
+	.Package(url: "https://github.com/OpenClemson/AEXML-CU.git", majorVersion: 4)
 	```
 
 - [CocoaPods](http://cocoapods.org/):
 
 	```ruby
-	pod 'AEXML'
+	pod 'AEXML-CU'
 	```
 
 ## License
