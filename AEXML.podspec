@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name = 'AEXML'
+s.name = 'AEXML-CU'
 s.version = '4.2.0'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.summary = 'Simple and lightweight XML parser written in Swift'
@@ -9,7 +9,7 @@ s.homepage = 'https://github.com/tadija/AEXML'
 s.author = { 'tadija' => 'tadija@me.com' }
 s.social_media_url = 'http://twitter.com/tadija'
 
-s.source = { :git => 'https://github.com/tadija/AEXML.git', :tag => s.version }
+s.source = { :git => 'https://github.com/OpenClemson/AEXML-CU.git', :tag => s.version }
 s.source_files = 'Sources/*.swift'
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
