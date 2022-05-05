@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AEXML-CU",
+    name: "AEXML",
     platforms: [
       .macOS(.v12)
     ],
